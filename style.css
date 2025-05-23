@@ -1,0 +1,103 @@
+html, body {
+    background-color: #09276D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+p, h1 {
+    color: white;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.meny a {
+    text-decoration: none;
+    font-size: 21px;
+    background-color: #01182A;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.meny {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.info img {
+    width: 20px;
+}
+
+.info {
+    background-color: #0D2357;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    border-radius: 25px;
+
+}
+
+.info-parent {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.våremedlemsskap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4B7FF7;
+    border-radius: 39px;
+    padding: 16px;
+    font-weight: 700;
+   
+  
+}
+
+.medlemsskap {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    font-weight: 700;
+    
+ 
+}
+
+.basic{
+    width: 145px;
+    padding: 15px;
+    background-color: #4B7FF7;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+}
+.bilde img{
+    width: 436px;
+}
+.bilde{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    background-color: #4B7FF7;
+    padding: 17px;
+}
